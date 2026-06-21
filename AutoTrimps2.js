@@ -1,7 +1,7 @@
 const atConfig = {
 	initialise: {
 		version: '',
-		basepath: 'https://SadAugust.github.io/AutoTrimps/',
+		basepath: 'https://foxwhite25.github.io/AutoTrimps/',
 		settingsTab: undefined,
 		loaded: false
 	},
