@@ -1036,7 +1036,7 @@ class Heirloom {
 		let cost = 0;
 		let name = '';
 		let index = -1;
-		const purchases = [0, 0, 0, 0, 0, 0, 0];
+		const purchases = new Array(this.mods.length).fill(0);
 		const relentlessness = game.global.universe === 2 ? 0 : game.portal.Relentlessness.level;
 		let critChance = relentlessness * 5;
 		if (this.fluffyRewards.critChance) critChance += 50 * this.fluffyRewards.critChance;
@@ -1105,7 +1105,7 @@ class Heirloom {
 		let cost = 0;
 		let name = '';
 		let index = -1;
-		const purchases = [0, 0, 0, 0, 0, 0, 0];
+		const purchases = new Array(this.mods.length).fill(0);
 
 		while (true) {
 			efficiency = 1;
